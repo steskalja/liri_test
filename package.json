@@ -1,0 +1,21 @@
+{
+    "name": "liribot",
+    "version": "1.0.0",
+    "description": "Ask Liri about bands,music, or movies",
+    "main": "LiriCmd.js",
+    "scripts": {
+        "test": "mocha"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "chai": "^4.2.0",
+        "chai-as-promised": "^7.1.1",
+        "dotenv": "^6.0.0",
+        "mocha": "^5.2.0",
+        "moment": "^2.22.2",
+        "node-ddg-api": "^0.1.4",
+        "node-spotify-api": "^1.0.7",
+        "request": "^2.88.0"
+    }
+}
